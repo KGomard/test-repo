@@ -1,0 +1,17 @@
+---
+title: "index.Rmd"
+author: "Kyla Gomard-Henshaw"
+date: "2024-10-30"
+output: 
+  html_document:
+    theme: cosmo
+    toc: yes
+    toc_float:
+      collapsed: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![Neist Point Lighthouse](IMG_1740.jpg)

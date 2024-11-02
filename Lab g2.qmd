@@ -1,0 +1,29 @@
+---
+title: "Lab g2"
+author: "Kyla Gomard-Henshaw"
+format:
+  html:
+    toc: true
+    toc_float: true
+    embed-resources: true
+editor: visual
+---
+
+## Configure your local repo to connect with the github repo
+
+```{r}
+library(usethis)
+use_git_config(user.name = "KGomard", user.email ="kgomardhensh@umass.edu")
+```
+
+```{r}
+usethis::create_github_token()
+```
+
+```{r}
+gitcreds::gitcreds_set()
+```
+
+### Make an index file as the homepage for your Github repo
+
+## Linking an existing R project with a new Github repo
